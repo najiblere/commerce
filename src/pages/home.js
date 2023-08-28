@@ -57,7 +57,7 @@ function Home({history}) {
                     <div className='col-md-6 text-center md-m'>
                     <Fade right>
                       <div className='pt-5'>
-                        <img src={`/images/commerce.png`} className="mt-5 p-0 w-100 " alt='jumbotron' />
+                        <img src={`../../../images/commerce.png`} className="mt-5 p-0 w-100 " alt='jumbotron' />
                       </div>
                     </Fade>
                   </div>
