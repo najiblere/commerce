@@ -1,16 +1,17 @@
 import ContactPage from './pages/contact'
 import Home from './pages/home'
 import About from './pages/about'
-import { BrowserRouter as Router, Route, Routes, HashRouter } from 'react-router-dom';
+import { BrowserRouter as Routery, Route, Routes, HashRouter as Router } from 'react-router-dom';
 import './styles/App.scss';
 import Members from './pages/members';
 import MemberDetails from './pages/memberDetails';
 import LatestNews from './pages/latestNews';
+
 function App() {
 
   return (
     <div>
-     <HashRouter>
+     <Router>
       <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/about" element={<About/>}/>
@@ -26,7 +27,7 @@ function App() {
           <Route path="/*" element={<Home />} />
 
         </Routes>
-      </HashRouter>
+      </Router>
       {//<SupportButton/>
 }
     </div>
