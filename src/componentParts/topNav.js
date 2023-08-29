@@ -22,7 +22,7 @@ function TopNav(params) {
         <ul className="navbar-nav">
             
            <li className="nav-item">
-            <a className="nav-link" href="/members">MEMBERS</a>
+            <a className="nav-link" href="/#/members">MEMBERS</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/">SUBCOMMITTEES</a>
@@ -47,7 +47,7 @@ function TopNav(params) {
             </ul>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/about">ABOUT</a>
+            <a className="nav-link" href="/#/about">ABOUT</a>
           </li>
         </ul>
       </div>
