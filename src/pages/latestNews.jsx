@@ -42,7 +42,7 @@ function LatestNews({isFooter=true}) {
                                 <Link to={`/news/${val.id}`} /*onClick={/*()=> history.push({ pathname: `/news/${val.id}`, state: {title: val.title, content: val.content} })}*/>
                                     <div className='text-center'>
                                     <div>
-                                        <img alt='waya' src={val.image_url || '/images/fallback-sm.png'} className='rounded-15p object-cover h-48 w-24 shadow-sm img-fluid' />
+                                        <img alt='com' src={val.image_url || '/images/fallback-sm.png'} className='rounded-15p object-cover h-48 w-24 shadow-sm img-fluid' />
                                         <h6 className='fs-5 fw-bold my-2' dangerouslySetInnerHTML={{__html: val.title}} />
                                         
                                     </div>

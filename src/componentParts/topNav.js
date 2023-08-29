@@ -2,6 +2,9 @@ import '../styles/nav.scss'
 import { useLocation, Link } from 'react-router-dom'
 import { useRecoilValueLoadable } from 'recoil'
 import { getSettingsApi } from '../states/contact'
+import logo1 from '../../src/assets/images/nasslogo.png'
+import menuIcon from '../../src/assets/images/menu-icon.png'
+
 
 function TopNav(params) {
   
@@ -10,10 +13,10 @@ function TopNav(params) {
   return (
     <nav className="navbar navbar-expand-lg fixed-top" style={{ backgroundImage: 'url(/grain.png)', backgroundColor: '#00f900' }}>
       <a className="navbar-brand ml-4 pl-1" href="/">
-        <img src={'/nasLogo.png'} className=" img-fluid" height={100} width={100}  alt='nedux Logo' />
+        <img src={logo1} className=" img-fluid" height={100} width={100}  alt='nedux Logo' />
       </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span className=""><img src={'/menu-icon.png'}></img> </span>
+        <span className=""><img src={menuIcon}></img> </span>
       </button>
       <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul className="navbar-nav">

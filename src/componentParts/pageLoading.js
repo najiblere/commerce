@@ -7,7 +7,7 @@ function PageLoading() {
       {/* <div className='position-absolute top-50 start-50'> */}
         <div className="spinner-grow" style={{width: "0rem", height: "0rem",}} role="status">
           <span className="visually-hidden">Loading...</span>
-          <img alt='waya' src='/nedux.png' width={200} height={200}/>
+          <img alt='com' src='/nedux.png' width={200} height={200}/>
         </div>
       </div>
 

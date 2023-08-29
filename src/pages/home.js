@@ -18,6 +18,7 @@ import { newsData } from '../data/new';
 import  { Link } from 'react-router-dom';
 import { CalendarOutlined, MessageOutlined, UserOutlined } from '@ant-design/icons';
 import CalenderContent from './calenderContent';
+import Logo from '../../src/assets/images/commerce.png'
 
 function Home({history}) {
   const [homePageData, setHomePageData] = useState({
@@ -57,7 +58,7 @@ function Home({history}) {
                     <div className='col-md-6 text-center md-m'>
                     <Fade right>
                       <div className='pt-5'>
-                        <img src={`../../../images/commerce.png`} className="mt-5 p-0 w-100 " alt='jumbotron' />
+                        <img src={Logo} className="mt-5 p-0 w-100 " alt='jumbotron' />
                       </div>
                     </Fade>
                   </div>

@@ -1,10 +1,14 @@
+import munir from '../../src/assets/images/munir.JPG'
+import james from '../../src/assets/images/james.jpg'
+import sub from '../../src/assets/images/news/n4.png'
+
 export  const members = [
     {
         "id": 1,
         "constituency": "Lere",
         "state": "Kaduna",
         "url": "munir",
-        "image_url": "/images/munir.jpg",
+        "image_url": munir,
         "type": "team",
         "title": "Ahmed Munir",
         "officeNo": "1.52",
@@ -72,7 +76,7 @@ export  const members = [
         "constituency": "Gombi/Hong",
         "state": "Adamawa",
         "url": "james",
-        "image_url": "/images/james.jpg",
+        "image_url": james,
         "type": "team",
         "title": "James Barka",
         "biography": '',
@@ -90,7 +94,7 @@ export  const members = [
         "constituency": "xxx kkd",
         "state": "Rivers",
         "url": "member1",
-        "image_url": "/images/chair.png",
+        "image_url": sub,
         "type": "team",
         "title": "member One",
         "biography": '',
@@ -108,7 +112,7 @@ export  const members = [
         "constituency": "Gombi/Hong",
         "state": "Rivers",
         "url": "member2",
-        "image_url": "/images/chair.png",
+        "image_url": sub,
         "type": "team",
         "title": "Member Two",
         "biography": '',
@@ -126,7 +130,7 @@ export  const members = [
         "constituency": "xxx kkd",
         "state": "Rivers",
         "url": "member3",
-        "image_url": "/images/chair.png",
+        "image_url": sub,
         "type": "team",
         "title": "Member Three",
         "biography": '',

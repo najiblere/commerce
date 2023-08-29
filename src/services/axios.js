@@ -3,7 +3,7 @@ import axios from 'axios'
 // export const baseURL = 'http://127.0.0.1:8080/api/';
 export const baseURL = 'https://services.staging.wayagram.ng/cms/api/';
 export const imageUrl = "https://services.staging.wayagram.ng/cms"
-// export const baseURL = 'https://waya-ap.herokuapp.com/api/'; // this the old one 
+// export const baseURL = 'https://com-ap.herokuapp.com/api/'; // this the old one 
 
 // export function handleResponse(response) {
 //   return response.text().then((text) => {

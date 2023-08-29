@@ -72,7 +72,7 @@ function FaqPage() {
                               <Select.Option key={val.id} value={val.title}>
                                 <div className='d-flex justify-content-between'>
                                   <div className='px-2'>
-                                    <img alt='waya' src={val.img} className='bg-orange rounded-circle p-1' />
+                                    <img alt='com' src={val.img} className='bg-orange rounded-circle p-1' />
                                   </div>
                                   <div className='px-2'>
                                     <p className='fw-bold text-capitalize'>{val.title}</p>

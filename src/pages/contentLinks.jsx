@@ -9,6 +9,9 @@ import generalPageLoading from '../states/general';
 import { useEffect } from 'react';
 import PageLoading from '../componentParts/pageLoading';
 import { Link } from 'react-router-dom';
+import sub from '../../src/assets/images/news/n4.png'
+import chair from '../../src/assets/images/munir.JPG'
+
 
 function ContentLinks({isFooter=true}) {
   const [pageLoading, setPageLoading] = useRecoilState(generalPageLoading)
@@ -17,7 +20,7 @@ function ContentLinks({isFooter=true}) {
         "id": 1,
         "content": "",
         "url": "/committees",
-        "image_url": "/images/news/n4.png",
+        "image_url": sub,
         "type": "team",
         "title": "SUBCOMMITTEES",
         "created_at": "2021-09-12T21:41:32.000+00:00",
@@ -27,7 +30,7 @@ function ContentLinks({isFooter=true}) {
         "id": 2,
         "content": "",
         "url": "/members/munir",
-        "image_url": "/images/chair.png",
+        "image_url": chair,
         "type": "team",
         "title": "HON. AHMED MUNIR, THE CHAIR",
         "created_at": "2022-06-27T16:00:44.000+00:00",
@@ -37,7 +40,7 @@ function ContentLinks({isFooter=true}) {
         "id": 2,
         "content": "",
         "url": "/oversight",
-        "image_url": "/images/chair.png",
+        "image_url": sub,
         "type": "team",
         "title": "Oversigth & Investigations",
         "created_at": "2022-06-27T16:00:44.000+00:00",
@@ -47,7 +50,7 @@ function ContentLinks({isFooter=true}) {
         "id": 3,
         "content": "",
         "url": "/members/deputy",
-        "image_url": "/images/news/n2.png",
+        "image_url": sub,
         "type": "team",
         "title": "HON. X Y, THE DEPUTY CHAIR",
         "created_at": "2022-06-27T16:00:44.000+00:00",
@@ -57,7 +60,7 @@ function ContentLinks({isFooter=true}) {
         "id": 4,
         "content": "",
         "url": "/memberS",
-        "image_url": "/images/news/n4.png",
+        "image_url": sub,
         "type": "team",
         "title": "MEET THE COMMITEE MEMBERS",
         "created_at": "2022-06-27T16:00:44.000+00:00",
@@ -66,7 +69,7 @@ function ContentLinks({isFooter=true}) {
     {
         "id": 5,
         "content": "",
-        "image_url": "/images/news/n4.png",
+        "image_url": sub,
         "url": "/mission",
         "type": "team",
         "title": "MISSION AND HISTORY",
@@ -76,7 +79,7 @@ function ContentLinks({isFooter=true}) {
     {
         "id": 5,
         "content": "",
-        "image_url": "/images/news/n4.png",
+        "image_url": sub,
         "url": "/policies",
         "type": "team",
         "title": "POLICY DOCUMENTS",
@@ -135,7 +138,7 @@ function ContentLinks({isFooter=true}) {
                                 <Link to={`${val.url}`} /*onClick={/*()=> history.push({ pathname: `/news/${val.id}`, state: {title: val.title, content: val.content} })}*/>
                                     <div className='text-center'>
                                     <div>
-                                        <img alt='waya' src={val.image_url || '/images/fallback-sm.png'} className='rounded-15p object-cover h-30 w-30 shadow-sm img-fluid' />
+                                        <img style={{height: 200, width: 200}} alt='com' src={val.image_url || '/images/fallback-sm.png'} className='rounded-15p object-cover h-30 w-30 shadow-sm img-fluid' />
                                         <h6 className='fs-5 fw-bold my-2' dangerouslySetInnerHTML={{__html: val.title}} />
                                         
                                     </div>
