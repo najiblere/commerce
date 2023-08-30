@@ -28,6 +28,9 @@ function Members({isFooter=true}) {
           <PageLoading />
         ) : (
           <div className='w-100 mt-5'>
+            <div className="mb-5">
+              <TopNav />
+              </div>
             <div className='w-100 pt-70p'>
               <div className='w-100'>
                 <Fade bottom>

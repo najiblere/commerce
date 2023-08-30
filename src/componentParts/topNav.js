@@ -20,7 +20,9 @@ function TopNav(params) {
       </button>
       <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul className="navbar-nav">
-            
+        <li className="nav-item">
+            <a className="nav-link" href="/">HOME</a>
+          </li>
            <li className="nav-item">
             <a className="nav-link" href="/#/members">MEMBERS</a>
           </li>
